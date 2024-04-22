@@ -15,5 +15,6 @@ namespace HernanJurado_Progreso1.Data
         }
 
         public DbSet<HernanJurado_Progreso1.Models.Estudiantes> Estudiantes { get; set; } = default!;
+        public DbSet<HernanJurado_Progreso1.Models.Carrera> Carrera { get; set; } = default!;
     }
 }
